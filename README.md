@@ -1,27 +1,4 @@
-Resilient_Networks_Project/
-│
-├── data/                     ← ملفات الشبكات (الخام)
-│   ├── za_16464_core_max.graphml.gz     # ZeroAccess
-│   └── roadNet-CA.txt.gz                # road network
-│
-├── src/                      ← كود بايثون المنظم
-│   ├── __init__.py
-│   ├── load_graphs.py         # تحميل وقراءة الشبكات
-│   ├── metrics.py             # حساب المقاييس العامة
-│   ├── robustness.py          # محاكاة الهجمات
-│   ├── plots.py               # الرسوم البيانية (degree, robustness)
-│   └── main.py                # الملف الرئيسي للتشغيل
-│
-├── results/                  ← نتائج المشروع
-│   ├── figures/               # صور الرسوم (png/pdf)
-│   ├── metrics_summary.csv    # جدول المقاييس
-│   └── robustness_curves.csv  # منحنيات الصمود
-│
-├── report/                   ← مجلد التقرير النهائي
-│   └── Resilient_Networks_Report.pdf
-│
-├── requirements.txt           ← المكتبات المطلوبة
-└── README.md                  ← وصف المشروع وطريقة التشغيل
+
 # Resilient Networks Project (Winter Term 2024/2025)
 
 ## Overview
